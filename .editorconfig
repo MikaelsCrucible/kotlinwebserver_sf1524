@@ -1,0 +1,7 @@
+[*.{kt,kts}]
+indent_size=2
+ktlint_standard_no-empty-first-line-in-method-block=disabled
+ktlint_standard_multiline-if-else=disabled
+ktlint_standard_no-multi-spaces=disabled
+ktlint_standard_trailing-comma-on-declaration-site=disabled
+ktlint_standard_trailing-comma-on-call-site=disabled
