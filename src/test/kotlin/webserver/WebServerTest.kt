@@ -1,6 +1,5 @@
 package webserver
 
-import com.sun.net.httpserver.HttpExchange
 import org.junit.Test
 import kotlin.test.assertEquals
 
@@ -54,6 +53,7 @@ class WebServerTest {
     val request = Request("http://www.imperial.ac.uk/say-hello?name=Fred")
     assertEquals("Hello, Fred!", helloHandler(request).body)
   }
+
 //
   @Test
   fun `can process multiple params`() {
